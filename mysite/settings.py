@@ -2,7 +2,7 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
-load_dotenenv()
+load_dotenv()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'es-cl'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Santiago'  # el mejor pais de chile
 
 USE_I18N = True
 
